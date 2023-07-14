@@ -6,10 +6,23 @@
 
 :root{
     --cor1 :#E6E6E6;
+    --corlinkativado: #81e1ee;
+    --corlinkdesativado: skyblue;
 }
 
 *{
     font-family: 'rubik';
+    text-decoration: none;
+}
+
+a{
+    color: var(--corlinkdesativado);
+    
+}
+
+a:hover{
+    color: var(--corlinkativado);
+    text-decoration: underline;
 }
 
 body{
@@ -24,13 +37,6 @@ main{
     margin: auto;
     margin-top: 50px;
     border-radius: 4px;
-}
-
-h1 h2 h3 p{
-    font-family: 'Rubik', sans-serif;
-    
-    
-    
 }
 
 h1{
@@ -49,6 +55,14 @@ h1{
 
 }
 
+#personagemsemelhante{
+    font-size: 11px;
+    color:var(--cor1);
+    display: block;
+    margin-left: 33px;
+    
+}
+
 .aspas{
     font-family: 'Caprasimo', cursive, serif;
     font-size: 60px;
@@ -60,13 +74,13 @@ h1{
 }
 
 #aspas1{
-    top:180px;
+    top:205px;
 }
 
 #aspas2{
     position: relative;
-    left: 300px;
-    bottom: 80px;
+    left: 384px;
+    bottom: 101px;
     font-weight: normal;
     font-size: 2em;
 }
@@ -80,20 +94,24 @@ h1{
     line-height: 1.75em;
     margin-left: 50px;
     text-align: left;
-    width: 232px;   
+    width: 325px;   
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #autordafrase{
     font-size: 12px;
     color: var(--cor1);
-    position: relative;
+    position: absolute;
 
 }
 
 #frasedokira > #autordafrase{
-    position: absolute;
+    position: relative;
     top: 172% ;
     left: 32%;
 }
 
+#lateral{
+
+}
