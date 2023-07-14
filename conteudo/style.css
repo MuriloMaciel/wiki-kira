@@ -8,6 +8,10 @@
     --cor1 :#E6E6E6;
 }
 
+*{
+    font-family: 'rubik';
+}
+
 body{
     background-image: url(img/jojo.png);
     background-size: cover;
@@ -15,7 +19,7 @@ body{
 
 main{
     background-color: #0E191A;
-    width: 1200px;
+    width: 1000px;
     padding: 10px 50px;
     margin: auto;
     margin-top: 50px;
@@ -26,9 +30,11 @@ h1 h2 h3 p{
     font-family: 'Rubik', sans-serif;
     
     
+    
 }
 
 h1{
+    font-weight: lighter;
     font-size: 36px;
     color: var(--cor1);
     margin-bottom: 72px;
@@ -40,34 +46,54 @@ h1{
     font-size: 16px;
     text-indent: 10px;
     line-height: 24px;
+
 }
 
-#aspas{
+.aspas{
     font-family: 'Caprasimo', cursive, serif;
     font-size: 60px;
     font-weight: bold;
     color: blue;
     position: absolute;
-    top: 200    px;
+    
     display: inline;
 }
-#aspas_2{
-    font-family: 'Caprasimo', cursive, serif;
-    font-size: 150px;
-    font-weight: bold;
-    color: blue;
-    position: absolute;
-    display: inline;
+
+#aspas1{
+    top:180px;
 }
+
+#aspas2{
+    position: relative;
+    left: 300px;
+    bottom: 80px;
+    font-weight: normal;
+    font-size: 2em;
+}
+
 
 #frase{
     color: var(--cor1);
     width: 600px;
-    font-size: 16px;
+    font-size: 14px;
     text-indent: 10px;
-    line-height: 24px;
-    padding-left: 50px;
+    line-height: 1.75em;
+    margin-left: 50px;
     text-align: left;
-    
-    
+    width: 232px;   
+    margin-bottom: 50px;
 }
+
+#autordafrase{
+    font-size: 12px;
+    color: var(--cor1);
+    position: relative;
+
+}
+
+#frasedokira > #autordafrase{
+    position: absolute;
+    top: 172% ;
+    left: 32%;
+}
+
